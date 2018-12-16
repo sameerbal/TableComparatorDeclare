@@ -1,0 +1,12 @@
+package comparator;
+
+import java.util.List;
+import java.util.Map;
+
+
+public interface TableComparator {
+
+	public Map<String, List<TableCellData>> compareFiles(Map<String, List<TableCellData>> leftSide,
+			Map<String, List<TableCellData>> rightSide);
+
+}
